@@ -55,6 +55,14 @@ body {
   min-height: 75vh;
 }
 
+.accordion-body:has(.yotpo-device-mobile) {
+  padding: 1rem 0;
+}
+
+.wrapper:has(.yotpo-device-mobile) {
+    padding: 1rem 0;
+}
+
 #accordionExample {
   background: var(--light-template-background);
   position: relative;
